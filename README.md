@@ -116,6 +116,11 @@ First, let’s clone the XAgent repo:
 git clone https://github.com/biteval/xagent.git
 ```
 
+Move to the project folder:
+
+```
+cd xagent
+```
 Now, install uv and set up our Python project and environment:
 
 ## Linux
