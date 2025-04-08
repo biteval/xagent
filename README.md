@@ -168,7 +168,7 @@ uv add mcp[cli] httpx python-dotenv
 
 # Overview 
 
-1. The servers_config.json file defines the available MCP stdio or SSE servers, allowing the MCP client to identify and connect to them accordingly. for example:
+- The servers_config.json file defines the available MCP stdio or SSE servers, allowing the MCP client to identify and connect to them accordingly. for example:
 
 ```
 
