@@ -110,18 +110,7 @@ async def main():
 
 ## Set up your environment
 
-First, let’s clone the XAgent repo:
-
-```
-git clone https://github.com/biteval/xagent.git
-```
-
-Move to the project folder:
-
-```
-cd xagent
-```
-Now, install uv and set up our Python project and environment:
+First, install uv and set up our Python project and environment:
 
 ## Linux
 
@@ -133,6 +122,19 @@ curl -LsSf https://astral.sh/uv/install.sh | sh
 ```
 powershell -ExecutionPolicy ByPass -c "irm https://astral.sh/uv/install.ps1 | iex"
 ```
+
+Now, let’s clone the XAgent repo:
+
+```
+git clone https://github.com/biteval/xagent.git
+```
+
+Move to the project folder:
+
+```
+cd xagent
+```
+
 Init, create virtual environment and activate it :
 
 ```
