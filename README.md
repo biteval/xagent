@@ -224,6 +224,7 @@ uv add mcp[cli] httpx python-dotenv
 Your contribution is crucial to our mission. If you're unable to contribute directly, you can still make a significant impact by sharing this project within your community. 
 
 For more insights and updates, explore our YouTube channel:
+
 <a href="https://www.youtube.com/@BitEval" target="_blank">
   <img src="https://github.com/biteval/browser_ctl/blob/main/static/biteval_logo.jpeg" alt="BitEval">
 </a>
