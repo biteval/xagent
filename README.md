@@ -1,18 +1,11 @@
 # XAgent
 
-<p align="center">
-  <a href="https://www.youtube.com/@BitEval">
-    <img src="https://github.com/biteval/browser_ctl/blob/main/static/biteval_logo.jpeg" alt="BitEval">
-  </a>
-</p>
-
-
 XAgent is an AI Agent library makes it easy to create single or multi AI agents with multi LLMs based on Anthropic's MCP protocol, and aims to provide a free and open source AI agent that can handle complex online tasks to all people around the world, adding value to their lives.
 
 # Architecture
 
 <p align="center">
-  <img src="https://github.com/biteval/xagent/blob/main/static/xagent-architect.png" alt="XAgent Architecture">
+  <img src="https://github.com/biteval/xagent/blob/main/static/xagent-architect.jpeg" alt="XAgent Architecture">
 </p>
 
 
@@ -230,12 +223,12 @@ uv add mcp[cli] httpx python-dotenv
 
 Your contribution is crucial to our mission. If you're unable to contribute directly, you can still make a significant impact by sharing this project within your community. 
 
-For more insights and updates, explore our YouTube channel:&#8203;:contentReference[oaicite:0]{index=0}
+For more insights and updates, explore our YouTube channel:
 
 [![BitEval](https://github.com/biteval/browser_ctl/blob/main/static/biteval_logo.jpeg)](https://www.youtube.com/@BitEval)
 
 
-:contentReference[oaicite:1]{index=1}&#8203;:contentReference[oaicite:2]{index=2}
+
 
 
 
