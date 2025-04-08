@@ -11,6 +11,8 @@ XAgent is an AI Agent library simplifies the creation of single or multi AI agen
 
 # Componenets 
 
+The agent_types module contains this basic components:
+
 ## llm
 
 1. The llm component provides this classes:
