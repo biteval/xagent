@@ -122,24 +122,21 @@ class Host:
             to know which mcpserver have the tool in constant time, if it not provided the client will do a linear search for the MCP server.
             """
             server_name = tool_call_fn.get(LLMKeys.KEY_MCP_SERVER, None)
-            #print(f"server name from llm response {server_name}")
             #get the tool name and args from the tool call response.
             tool_name=tool_call_fn[LLMKeys.KEY_NAME]
             tool_args=tool_call_fn[LLMKeys.KEY_ARGUMENTS]
             #excute the tool, this will not work if the llm donot provide the 'mcpServer' key
             call_result = await self.excute_tool(server_name,tool_name,tool_args)
-            print(f"***call_result = {call_result}")
             #add the fucntion call result to as a system message for llm
             messages.append({LLMKeys.KEY_ROLE: LLMKeys.ASSISTANT, LLMKeys.KEY_CONTENT: str(call_result)})
             #update the messages list
             self.history[LLMKeys.KEY_MESSAGES]=messages
-            #print(f"call_result:{call_result}")
+            #process the self.history after updates
             await self.process_llm_response()
             
 
 
     async def process_response(self,response):
-        #print(f"response:\n{response}")
         messages = self.history[LLMKeys.KEY_MESSAGES]
         content = response.get(LLMKeys.KEY_MESSAGE, {}).get(LLMKeys.KEY_CONTENT)
         if content is not None:
@@ -162,7 +159,6 @@ class Host:
         """Send the self.history to the current selected llm
         and process the response"""
         async for response in self.llms[self.selected_llm].async_get_response(payload=self.history):
-            print("RESPONSE", response)
             await self.process_response(response=response)
 
     async def process(self, query:str):

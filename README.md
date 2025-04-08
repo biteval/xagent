@@ -103,7 +103,6 @@ async def main():
     xagent.host.add_llm(def_llm)
     #Start the chat loop
     await xagent.chat_loop()
-    
 ```
 
 # Install
@@ -157,7 +156,6 @@ source .venv/bin/activate
 ```
 .venv\Scripts\activate
 ```
-
 
 # Install dependencies
 
