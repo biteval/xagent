@@ -1,6 +1,6 @@
 # XAgent
 
-XAgent is an AI Agent library simplifies the creation of single or multi AI agents with multi LLMs based on Anthropic's MCP protocol, and aims to provide a free and open source AI agent that can handle complex online tasks to all people around the world, adding value to their lives.
+XAgent is an AI Agent library simplifies the creation of single or multi AI agents with multi LLMs based on Anthropic's MCP protocol, aims to provide free and open source AI agent that can handle complex online tasks to all people around the world, adding value to their lives.
 
 # Architecture
 
@@ -114,7 +114,6 @@ First, let’s clone the XAgent repo:
 
 ```
 git clone https://github.com/biteval/xagent.git
-
 ```
 
 Now, install uv and set up our Python project and environment:
@@ -123,24 +122,20 @@ Now, install uv and set up our Python project and environment:
 
 ```
 curl -LsSf https://astral.sh/uv/install.sh | sh
-
 ```
 ## Windows
 
 ```
 powershell -ExecutionPolicy ByPass -c "irm https://astral.sh/uv/install.ps1 | iex"
-
 ```
 Init, create virtual environment and activate it :
 
 ```
 uv init
-
 ```
 
 ```
 uv venv
-
 ```
 
 
@@ -148,14 +143,12 @@ uv venv
 
 ```
 source .venv/bin/activate
-
 ```
 
 ## Windows
 
 ```
 .venv\Scripts\activate
-
 ```
 
 
@@ -165,14 +158,12 @@ source .venv/bin/activate
 
 ```
 uv add "mcp[cli]" httpx python-dotenv
-
 ```
 
 ## Windows 
 
 ```
 uv add mcp[cli] httpx python-dotenv
-
 ```
 
 # Overview 
