@@ -1,0 +1,20 @@
+{
+    "mcpServers": {
+
+      "Browser CTL": {
+        "connection":{
+         "type":"sse",
+         "end_point":"http://127.0.0.1:8001/sse"
+        }
+      },
+
+      "Email Reader": {
+        "connection":{
+        "type":"stdio",
+        "command": "python",
+        "args": ["./stdio_servers/examples/email_reader.py"]
+      }
+    }
+
+    }
+}
