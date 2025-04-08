@@ -1,6 +1,6 @@
 # XAgent
 
-XAgent is an AI Agent library makes it easy to create single or multi AI agents with multi LLMs based on Anthropic's MCP protocol, and aims to provide a free and open source AI agent that can handle complex online tasks to all people around the world, adding value to their lives.
+XAgent is an AI Agent library simplifies the creation of single or multi AI agents with multi LLMs based on Anthropic's MCP protocol, and aims to provide a free and open source AI agent that can handle complex online tasks to all people around the world, adding value to their lives.
 
 # Architecture
 
