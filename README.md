@@ -1,6 +1,7 @@
 # XAgent
 
 XAgent is an AI Agent library simplifies the creation of single or multi AI agents with multi LLMs based on Anthropic's MCP protocol, aims to provide free and open source AI agent that can handle complex online tasks to all people around the world, adding value to their lives.
+<a href="https://youtu.be/83VpJnFdBkI" target="_blank">Watch this video to learn how to create ai agents from scratch using XAgent lib</a>
 
 # Architecture
 
@@ -169,6 +170,14 @@ uv add "mcp[cli]" httpx python-dotenv
 
 ```
 uv add mcp[cli] httpx python-dotenv
+```
+
+## Start the AI Agent
+
+Now, you can run your first AI agent using this command after modify servers_config.json file with your MCP servers details:
+
+```
+python agent.py
 ```
 
 # Overview 
